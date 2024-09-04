@@ -1,0 +1,91 @@
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-section .left {
+    color: white;
+    /* width: 457px; */
+    padding-top: 80px;
+}
+
+.btn {
+    /* Button */
+    padding: 16px 60px;
+    display: inline-block;
+    border-radius: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background: aqua;
+  transition: 0.3s;
+}
+
+
+.btn-green {
+    background: lightgreen
+}
+
+
+
+.hero-section .left>p {
+    margin-bottom: 70px;
+    margin-top: 18px;
+}
+
+.hero-section .right {
+}
+
+.hero-section .right img {
+    width: 126px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+.img-1 {
+    transform: rotateX(20deg) rotateY(70deg);
+    margin-right: -32px;
+    margin-bottom: 37px;
+}
+
+.img-2 {
+    transform: rotateX(20deg) rotateY(30deg);
+}
+
+.img-3 {
+    transform: rotateX(20deg) rotateY(-30deg);
+
+}
+
+.img-4 {
+    transform: rotateX(20deg) rotateY(-70deg);
+    margin-left: -32px;
+    margin-bottom: 37px;
+}
+
+.img-5 {
+    transform: rotateX(20deg) rotateY(30deg);
+}
+
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+}
+
+@media (max-width: 900px) {
+
+    .hero-section{
+        flex-direction: column;
+    }
+}
+

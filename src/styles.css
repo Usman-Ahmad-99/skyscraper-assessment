@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+}
+
+.wrapper {
+    max-width: 1134px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+
+}
+
+
+
+header section {
+    margin-top: 0;
+}
+
+
+
+/* For Tablets */
+@media (max-width: 1100px) {
+    .wrapper {
+        padding: 0 100px;
+    }
+}
+
